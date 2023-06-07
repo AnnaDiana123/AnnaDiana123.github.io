@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body {
+    overflow: hidden;
+  }
+  
+  #positionDescription {
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+  }
+  
+  #containerDescription {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 100vw;
+    height: 40px;
+    z-index: 1;
+  }
+  
+  .canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+    z-index: 0;
+  }
+
+
+
+
+/*# sourceMappingURL=main.css.map*/
